@@ -101,7 +101,7 @@ public class Usuario {
     /**
      * @param contrasena the contraseña to set
      */
-    public void setContraseña(String contrasena) {
+    public void setContrasena(String contrasena) {
         this.contrasena = contrasena;
     }
 
@@ -131,6 +131,20 @@ public class Usuario {
      */
     public void setCelular(String celular) {
         this.celular = celular;
+    }
+
+    /**
+     * @return the fechaDeNacimiento
+     */
+    public Date getFechaDeNacimiento() {
+        return fechaDeNacimiento;
+    }
+
+    /**
+     * @param fechaDeNacimiento the fechaDeNacimiento to set
+     */
+    public void setFechaDeNacimiento(Date fechaDeNacimiento) {
+        this.fechaDeNacimiento = fechaDeNacimiento;
     }
     
     

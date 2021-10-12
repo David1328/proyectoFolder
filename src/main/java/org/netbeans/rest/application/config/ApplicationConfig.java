@@ -30,6 +30,7 @@ public class ApplicationConfig extends Application {
      */
     private void addRestResourceClasses(Set<Class<?>> resources) {
         resources.add(co.edu.unicundi.proyectoplantillas.controller.UsuarioController.class);
+        resources.add(co.edu.unicundi.proyectoplantillas.exception.ExceptionHandler.class);
     }
     
 }
